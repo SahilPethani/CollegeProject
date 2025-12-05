@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.main-ring {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #ffffff57;
+  backdrop-filter: blur(4px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999999999;
+}
+
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 5px solid transparent;
+  border-radius: 50%;
+  /* animation: lds-ring 1.9s cubic-bezier(.13,1.14,.83,.67) infinite; */
+  animation: lds-ring 1.5s cubic-bezier(0.24, 1.2, 0.83, 0.67) infinite;
+  border-color: #8182ee transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+
+.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root {
+  z-index: 999999 !important;
+}
+
+.css-1sucic7 {
+  z-index: 99999 !important;
+}
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.css-1anqmj6-MuiPopper-root-MuiPickersPopper-root,
+.css-1mtsuo7 {
+  z-index: 9999 !important;
+}
+
+.TimePicker .css-4jnixx-MuiStack-root {
+  overflow: visible !important;
+}
+
+.Chat-input div {
+  height: 100% !important;
+}
+
+/* .css-695oml-MuiInputBase-root-MuiInput-root {
+  height: 100% !important;
+} */
+
+.Chat-input input {
+  height: 82% !important;
+  padding: 0 20px !important;
+}
+
+.Chat::after {
+  bottom: 100%;
+  left: 20px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: #e8e8e8;
+  border-width: 8px;
+  margin-left: -10px;
+}
+
+.User-Chat::after {
+  bottom: 100%;
+  right: 10px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: #d9e7ea;
+  border-width: 8px;
+  margin-left: -10px;
+}

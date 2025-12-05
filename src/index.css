@@ -1,0 +1,245 @@
+body {
+  background-color: #ECF0F4 !important;
+  font-family: 'Poppins', sans-serif !important;
+  margin: 0;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: none;
+  background-color: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: lightgray;
+  /* / border: 2px solid #555555;/ */
+  border-radius: 10px;
+}
+
+.mainlayout_main {
+  margin: 25px 25px 0 25px;
+  min-height: calc(100vh - 76px);
+  transition: .5s;
+}
+
+.pl-25px {
+  padding-left: 25px !important;
+}
+
+.bg-Icon {
+  background-image: url(./assets/icons/Bag_icon.svg);
+  background-size: 86%;
+  background-repeat: no-repeat;
+  height: 110px;
+  filter: drop-shadow(3px 7px rgba(0, 0, 0, .3));
+  position: absolute;
+  top: 20px;
+  right: -30px;
+  width: 110px;
+  opacity: 0.1;
+}
+
+.bg-User {
+  background-image: url(./assets/icons/User_icon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 110px;
+  filter: drop-shadow(3px 7px rgba(0, 0, 0, .3));
+  position: absolute;
+  top: 20px;
+  right: -45px;
+  /* transform: translateY(-50%); */
+  width: 110px;
+  opacity: 0.1;
+}
+
+.bg-Absant {
+  background-image: url(./assets/icons/Absent_Icon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 110px;
+  filter: drop-shadow(3px 7px rgba(0, 0, 0, .3));
+  position: absolute;
+  top: 20px;
+  right: -35px;
+  /* transform: translateY(-50%); */
+  width: 110px;
+  opacity: 0.1;
+}
+
+.css-4jnixx-MuiStack-root {
+  padding-top: 0 !important;
+}
+
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+  border-right: none !important;
+}
+
+.css-1wuw8dw-MuiBreadcrumbs-separator {
+  margin: 0 0 !important;
+}
+
+.css-1eqjca5-MuiToolbar-root {
+  min-height: 61px !important;
+}
+
+.css-1iyq7zh-MuiDataGrid-columnHeaders {
+  height: 55px !important;
+}
+
+.css-tlc64q-MuiPaper-root-MuiDialog-paper {
+  background-color: transparent !important;
+  border-radius: 5px !important;
+}
+
+.css-1x87ci2-MuiDataGrid-root .MuiDataGrid-withBorderColor {
+  border-top: 0;
+}
+
+.react-calendar {
+  width: 100% !important;
+  border: none !important;
+  padding-bottom: 20px !important;
+  border-bottom: 0px solid #e5e5e5 !important;
+}
+
+.react-calendar__navigation {
+  max-width: 190px;
+  margin-left: auto;
+}
+
+.react-calendar__navigation__prev2-button,
+.react-calendar__navigation__next2-button {
+  position: absolute;
+  visibility: hidden;
+}
+
+.react-calendar__navigation button {
+  min-width: 0px !important;
+  font-size: 30px;
+  color: #7d8da6 !important;
+}
+
+.react-calendar__navigation__arrow {
+  margin-top: -5px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7d8da6 !important;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.react-calendar__navigation__label__labelText {
+  color: #7d8da6 !important;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 5px;
+}
+
+.react-calendar__navigation__arrow:focus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 5px;
+  border-radius: 8px;
+}
+
+
+.react-calendar__navigation__arrow:hover,
+.react-calendar__navigation__label__labelText:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0px 5px; */
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: none;
+  font-weight: 700 !important;
+  font-size: 14px;
+  line-height: 19px;
+  color: #141736;
+}
+
+.react-calendar__tile abbr {
+  font-weight: 700 !important;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: right;
+  color: #141736;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth abbr {
+  color: #7d8da6 !important;
+}
+
+.react-calendar__tile--now {
+  padding: 10px 6.6667px !important;
+  border-radius: 8px;
+  width: 39px;
+  background: #ffc100 !important;
+}
+
+.react-calendar__tile--now abbr {
+  color: #ffffff !important;
+}
+
+.react-calendar__tile--active {
+  width: 39px;
+  background: #3f51b5 !important;
+  padding: 10px 6.6667px !important;
+  border-radius: 8px;
+}
+
+.react-calendar button:hover {
+  border-radius: 8px;
+}
+
+.react-calendar__tile--active abbr {
+  color: #ffffff !important;
+}
+
+/* tab css */
+.nav-tabs {
+  width: 15%;
+  font-weight: 500 !important;
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.active-tab {
+  position: relative;
+  border-bottom: 6px solid darkblue;
+}
+
+.punchin_line::after {
+  content: "";
+  border: 1px solid #e5e5e5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 4px;
+}
+
+.icons-filtter {
+  filter: invert(14%) sepia(0%) saturate(5141%) hue-rotate(101deg) brightness(95%) contrast(97%);
+}
+
+.employeelistpopup .css-tlc64q-MuiPaper-root-MuiDialog-paper {
+  background-color: #fff !important;
+}
+
+.bg-c-purple {
+  background-image: linear-gradient(to right, #664dc9, #9884ea);
+}
